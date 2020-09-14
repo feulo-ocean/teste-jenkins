@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('test') {
             steps {
-                sh 'echo "clonei o repo!"'
+                sh 'python -m pytest'
             }
         }
     }
